@@ -1,7 +1,31 @@
 @charset "UTF-8";
 
-.navbar{
+.navbar-grid{
     display: grid;
     grid-template-columns: 8fr 0.45fr 0.4fr 0.25fr;
+    /* Can also use grid-column-gap:  */
 }
 
+.about-grid{
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    /* grid-template-rows: 1fr; */
+}
+.hello-text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+/*     grid-row-start: 1;
+    grid-row-end: 2; */
+}
+.about-text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+/*     grid-row-start: 2;
+    grid-row-end: 3;    */ 
+}
+.profile-img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+/*     grid-row-start: 1;
+    grid-row-end: 2; */
+}
