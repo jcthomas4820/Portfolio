@@ -3,14 +3,14 @@
 
 /* Navbar Box */
 .navbar-box{
-    display: flex;  
+    display: flex;
+    justify-content: space-between;     /* Move home button and nav-items completely away from eachother */
+    margin-bottom: 50px;
 }
-.home-link-item{
-    flex: 8.5;
+.nav-link-item{
+    margin-right: 10px;                 /* space out navlinks w/n the box*/
 }
-.nav-link-items{
-    flex: 1; 
-}
+
 
 /* About Box */
 .about-box{
@@ -19,6 +19,7 @@
 .about-text-box{
     flex-direction: column;
     flex: 3;                        /* flex as child of about-box */
+    justify-content: center;
 }
 .profile-img-item{
     flex: 1;                        /* flex as child of about-box */
