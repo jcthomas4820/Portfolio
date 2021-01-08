@@ -1,31 +1,25 @@
 @charset "UTF-8";
+/* research justify-content/align-tems */
 
-.navbar-grid{
-    display: grid;
-    grid-template-columns: 8fr 0.45fr 0.4fr 0.25fr;
-    /* Can also use grid-column-gap:  */
+/* Navbar Box */
+.navbar-box{
+    display: flex;  
+}
+.home-link-item{
+    flex: 8.5;
+}
+.nav-link-items{
+    flex: 1; 
 }
 
-.about-grid{
-    display: grid;
-    grid-template-columns: 6fr 3fr;
-    /* grid-template-rows: 1fr; */
+/* About Box */
+.about-box{
+    display: flex;
 }
-.hello-text{
-    grid-column-start: 1;
-    grid-column-end: 2;
-/*     grid-row-start: 1;
-    grid-row-end: 2; */
+.about-text-box{
+    flex-direction: column;
+    flex: 3;                        /* flex as child of about-box */
 }
-.about-text{
-    grid-column-start: 1;
-    grid-column-end: 2;
-/*     grid-row-start: 2;
-    grid-row-end: 3;    */ 
-}
-.profile-img{
-    grid-column-start: 2;
-    grid-column-end: 3;
-/*     grid-row-start: 1;
-    grid-row-end: 2; */
+.profile-img-item{
+    flex: 1;                        /* flex as child of about-box */
 }

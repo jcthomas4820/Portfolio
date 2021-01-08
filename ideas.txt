@@ -1,1 +1,3 @@
 Mobile friendly - https://coder-coder.com/responsive-navigation-bar-flexbox-vs-css-grid/
+Screen changes, wrap content?
+Ensure its responsive layout
