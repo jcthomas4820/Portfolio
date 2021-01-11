@@ -12,15 +12,9 @@
 }
 
 
-/* About Box */
 .about-box{
     display: flex;
+    justify-content: space-between;
 }
-.about-text-box{
-    flex-direction: column;
-    flex: 3;                        /* flex as child of about-box */
-    justify-content: center;
-}
-.profile-img-item{
-    flex: 1;                        /* flex as child of about-box */
-}
+
+
