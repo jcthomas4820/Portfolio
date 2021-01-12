@@ -1,7 +1,6 @@
 @charset "UTF-8";
-/* research justify-content/align-tems */
 
-/* Navbar Box */
+/* Navbar */
 .navbar-box{
     display: flex;
     justify-content: space-between;     /* Move home button and nav-items completely away from eachother */
@@ -11,10 +10,33 @@
     margin-right: 10px;                 /* space out navlinks w/n the box*/
 }
 
-
+/* About */
 .about-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+}
+.profile-img-item{
+    width: 500px;
+    height: 500px;
 }
 
-
+/* Experience */
+#experience-header{
+    text-align: center;
+}
+.experience-box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#nordstrom-logo{
+    width: 414px;
+    height: 63px;
+    margin-top: 35px;
+}
+#imanage-logo{
+    width: 481px;
+    height: 127px;
+}
