@@ -22,10 +22,13 @@
 }
 
 /* Experience */
-#experience-header{
+.industry-box{
+    margin-bottom: 300px;                   
+}
+#industry-header{
     text-align: center;
 }
-.experience-box{
+.logo-box{
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -40,3 +43,31 @@
     width: 481px;
     height: 127px;
 }
+
+
+/* Academics */
+.academics-box{
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#academics-header{
+    text-align: center;
+}
+.education-box{
+    display: flex;
+    /* justify-content: space-between;  */
+    margin-top: 35px;
+}
+#uic-logo{
+    width: 250px;
+    height: auto;
+}
+.tutoring-box{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+/* #tutoring-experience-header{
+    text-align: center;
+} */
