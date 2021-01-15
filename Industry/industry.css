@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Navbar */
+.navbar-box{
+    display: flex;
+    justify-content: space-between;     /* Move home button and nav-items completely away from eachother */
+    margin-bottom: 50px;
+}
+.nav-link-item{
+    margin-right: 10px;                 /* space out navlinks w/n the box*/
+}
+
+.industry-box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly
+}
+.experience-box{
+    display: flex;
+    justify-content: space-around;
+}
+.experience-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobtitle-text{
+    margin-top: 0px;;
+}
+.imanage-jobtitle-text{
+    margin-top: 30px;
+}
+
+.it-text{
+    font-style: italic;
+}
+#nordstrom-logo{
+    width: 414px;
+    height: 63px;
+}
+#imanage-logo{
+    width: 481px;
+    height: 127px;
+}
